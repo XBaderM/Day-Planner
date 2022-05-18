@@ -6,4 +6,4 @@ a daily planner that  uses moment api to help with dates and hours that are set 
 https://xbaderm.github.io/Day-Planner/
 
 ### Screenshot
-[!daily-planner](./assets/images/daily.png)
+![daily-planner](./assets/images/daily.png)
