@@ -29,3 +29,28 @@ h2{
     justify-content: center;
     columns: row;
 }
+
+textarea{
+    width: 500px;
+    height: 50px;
+}
+
+.jumbotron {
+    text-align: center;
+    background: hsl(183, 77%, 50%);
+    color: white;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    height: 150px;
+  }
+
+  .saveBtn {
+    border-left: 1px solid black;
+    background-color:  hsl(67, 94%, 43%);
+    font-size: 40px;
+    color: rgb(210, 13, 13);
+  }
+
+  .saveBtn:hover{
+    background-color: rgb(235, 4, 4);
+}
