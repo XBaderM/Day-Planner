@@ -2,13 +2,6 @@
     margin: 0;
 }
 
-.time-block{
-    background-color: grey;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -16,9 +9,25 @@ body {
     background-color: aqua;
 }
 
-.hour{
-    display: inline-block
-} 
+.jumbotron {
+    text-align: center;
+    background: hsl(183, 77%, 50%);
+    color: white;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    height: 150px;
+  }
+
+  .time-block{
+    background-color: grey;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .hour{
+    /* display: inline-block 
+}*/
 
 h2{
     text-align: center;
@@ -35,14 +44,7 @@ textarea{
     height: 50px;
 }
 
-.jumbotron {
-    text-align: center;
-    background: hsl(183, 77%, 50%);
-    color: white;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-    height: 150px;
-  }
+
 
   .saveBtn {
     border-left: 1px solid black;
@@ -54,3 +56,28 @@ textarea{
   .saveBtn:hover{
     background-color: rgb(235, 4, 4);
 }
+
+.description{
+    border: none;
+    resize: none;
+    color: black;
+    border-left: 1px solid black;
+    padding: 10px;  
+    white-space: pre-wrap;
+    border-bottom: 1px solid white;
+}
+
+/* Time-based color classes*/
+.past {
+    background-color: hsl(0, 2%, 34%);
+    color: rgb(153, 142, 142);
+    text-decoration: line-through;
+  }
+  
+  .present {
+    background-color: hsl(0, 100%, 87%);
+  }
+  
+  .future {
+    background-color: hsl(120, 100%, 87%);
+  }
